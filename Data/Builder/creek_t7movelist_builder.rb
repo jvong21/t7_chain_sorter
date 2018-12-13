@@ -44,7 +44,7 @@ class Creek_T7MoveList_Builder
 end 
 
 #### Testing ####
-# move_list_builder = Creek_T7MoveList_Builder.new('D:\JJ\Downloads\Alisa Frame Data T7FR.xlsx')
+# move_list_builder = Creek_T7MoveList_Builder.new('../../FrameData/Alisa Frame Data T7FR.xlsx')
 # move_list_builder.create_and_get_move_list # => returns move list 
 # puts move_list_builder.move_list.count # => Returns 222 for alisa 
 # move = move_list_builder.move_list[1] 
