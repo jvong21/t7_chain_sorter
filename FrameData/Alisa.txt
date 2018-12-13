@@ -1,0 +1,191 @@
+in rage b+1+2 in rage WS+b+1+2 in rage DES b+1+2
+in rage f+2+3
+    in rage f+2+3, 3+4
+    in rage f+2+3, f+3+4
+1
+    1, 1
+        1, 1, 1+2
+    1, 2
+        1, 2, 2
+        1, 2, 2*
+        1, 2, 4
+2
+    2, 3
+        2, 3, 3
+        2, 3, 4
+    2, 4
+3
+    3, 2
+4
+1+2
+f+2
+    f+2, 1
+    f+2, 1+2
+    f+2, 3
+        f+2, 3, f
+        f+2, 3, 3
+f+3
+    f+3, 2
+    f+3, 1+2
+f+4
+    f+4, 1
+        f+4, 1, 4
+f+1+2
+    f+1+2, 3+4
+    f+1+2, f+3+4
+d/f+1
+    d/f+1, 1
+        d/f+1, 1, 2
+    d/f+1, 4
+d/f+2
+d/f+3
+    d/f+3, 3
+d/f+4
+d/f+1+2
+d+2
+    d+2, 4
+        d+2, 4, 1+2
+d+3
+d+3 (After stance ends)
+d+4
+    d+4, 1+2
+d+3+4
+    d+3+4, 1+2
+d/b+2
+    d/b+2, 2
+        d/b+2, 2, 1+2
+d/b+3
+d/b+4
+b+1
+    b+1, 1+2
+b+2
+    b+2, 1
+    b+2, 4
+b+3
+b+4
+    b+4, 3
+        b+4, 3, 1+2
+b+3+4
+    b+3+4, 3+4
+b+2+3
+u/b+3+4
+BT 3+4
+u/b+3+4, 1+2 or BT 3+4, 1+2
+u/b or u or u/f+3
+u/f+3, 2
+u/f+3, 3+4
+u/f+3, f+3+4
+u or u/f+4
+u/f+4, 4
+u or u/f+3+4
+f, F+2
+    f, F+2, 3
+f, F+3
+    f, F+3, 4
+        f, F+3, 4, 1+2
+        f, F+3, 4, 4
+            f, F+3, 4, 4, 1+2
+f, F+4
+f, F+4 When hit f or b+1
+f, F+1+2
+f, F+1+2 When hit 2
+b, f+2
+b, B+1+4
+f, f, f+2
+f, f, f+3
+    f, f, f+3, 4
+WR+1+2
+WS+1
+    WS+1, 2
+        WS+1, 2, 3
+            WS+1, 2, 3, 1+2
+WS+2
+    WS+2, 3+4
+    WS+2, f+3+4
+WS+3
+    WS+3, 3 (one spin)
+    WS+3, 3
+        WS+3, 3, B (Cancel)
+WS+3, d+3
+WS+4
+WS+1+2
+    WS+1+2, * (two spins)
+    WS+1+2, * (three spins)
+FC+d/f+1+2
+FC+d/f+1+2 , 1+2
+SS+4
+SS+4 , 1+2
+BT 4
+Opponent Down d/b+1+2
+Grounded face up 1+2
+    Grounded face up 1+2, 3+4
+1+2+3
+1+2+4
+1+2+3+4
+    1+2+3+4, 1+2
+d/b+1
+d/b+1~1
+d/b+1~2
+d/b+1~3
+d/b+1~4
+f+3+4 (to SBT)
+f+3+4, B
+f+3+4, D
+SBT 1
+    SBT 1, 2
+        SBT 1, 2, 1
+SBT 1, 2, 1 , 3+4
+    SBT 1, 2, 1 , 3+4, 1+2
+SBT 2
+    SBT 2, 1+2
+SBT 3
+SBT 4
+d+1+2 or From special move (to DES)
+DES b or F
+DES d+1+2 or D/B (Cancel)
+DES 1
+DES 2
+DES 2 When hit 1
+DES 3 or 4
+DES 1+2
+DES f+1
+DES f+2
+DES f+1+2
+    DES f+1+2, 1+2
+DES d+1
+DES d+2
+    DES d+2, *
+DES b+2
+    DES b+2, 1
+DES b+3+4 or b, b or u/b, b
+DES u or d+3+4
+    DES u or d+3+4, 1
+DES d/f+1+2
+DES u/b or u or u/f+1+2
+DES u/f+1+2, 1+2
+DES BT 1 or 2
+DES f+3+4 or f, f (to DBT)
+DBT b (Cancel)
+DBT f+3+4, u or D
+DBT 1
+DBT 2
+    DBT 2, 1+2
+    DBT 2, 1
+        DBT 2, 1, 1+2
+DBT 1+2
+f+1
+d+1
+u/b or u or u/f+1
+u/b or u or u/f+2
+u/b+4
+FC+1
+FC+2
+FC+3
+FC+4
+SS+1
+SS+2
+SS+3
+BT 1 or 2
+BT 3
+BT d+1 or 2
+BT d+3 or 4
