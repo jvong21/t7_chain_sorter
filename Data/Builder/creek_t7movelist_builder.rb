@@ -1,3 +1,4 @@
+# Uses the "creek" ruby gem to parse an xlsx file
 require_relative '../Move/t7_movelist'
 require_relative '../Move/t7_move'
 require 'creek'
@@ -29,6 +30,7 @@ class Creek_T7MoveList_Builder
     end 
 
     private def create_move_from_row(row)
+        # The columns per row are based on frame data from http://rbnorway.org/t7-frame-data/
         command = row["A"]
         hit_level = row["B"]
         start_up = row["D"]

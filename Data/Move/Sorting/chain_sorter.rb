@@ -1,3 +1,4 @@
+# Will associate moves that are "chain starters" to their actual chains. Formatting is based on frame data from http://rbnorway.org/t7-frame-data/
 require_relative '../movelist'
 
 class Chain_Sorter 

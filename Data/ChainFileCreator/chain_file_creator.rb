@@ -5,6 +5,7 @@ require_relative '../builder/creek_t7movelist_builder'
 
 class Chain_File_Creator
 
+    # Both of these parameters require full paths 
     def create_chain_file(source_xlsx, output_file) 
         move_list = create_move_list(source_xlsx)
         chain_list = create_chains(move_list)

@@ -1,3 +1,4 @@
+# New implementation of an array that only allows objects of type "Move" to the array. 
 require_relative 'move'
 require_relative 't7_move'
 

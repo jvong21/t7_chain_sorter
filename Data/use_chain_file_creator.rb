@@ -1,3 +1,4 @@
+# Sample usage of the chain file creator
 require_relative 'ChainFileCreator/chain_file_creator'
 
 chain_file_creator = Chain_File_Creator.new
