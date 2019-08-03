@@ -1,0 +1,1008 @@
+[
+  {
+    "^o":"Tiered_Move",
+    "command":"in rage b+1+2 in rage WS+b+1+2 in rage DES b+1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"in rage f+2+3",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"in rage f+2+3, 3+4",
+        "child_move":[]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"in rage f+2+3, f+3+4",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"1",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"1, 1",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"1, 1, 1+2",
+            "child_move":[]
+          }
+        ]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"1, 2",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"1, 2, 2",
+            "child_move":[]
+          },
+          {
+            "^o":"Tiered_Move",
+            "command":"1, 2, 2*",
+            "child_move":[]
+          },
+          {
+            "^o":"Tiered_Move",
+            "command":"1, 2, 4",
+            "child_move":[]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"2, 3",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"2, 3, 3",
+            "child_move":[]
+          },
+          {
+            "^o":"Tiered_Move",
+            "command":"2, 3, 4",
+            "child_move":[]
+          }
+        ]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"2, 4",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"3",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"3, 2",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"f+2, 1",
+        "child_move":[]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"f+2, 1+2",
+        "child_move":[]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"f+2, 3",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"f+2, 3, f",
+            "child_move":[]
+          },
+          {
+            "^o":"Tiered_Move",
+            "command":"f+2, 3, 3",
+            "child_move":[]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f+3",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"f+3, 2",
+        "child_move":[]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"f+3, 1+2",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f+4",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"f+4, 1",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"f+4, 1, 4",
+            "child_move":[]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f+1+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"f+1+2, 3+4",
+        "child_move":[]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"f+1+2, f+3+4",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/f+1",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"d/f+1, 1",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"d/f+1, 1, 2",
+            "child_move":[]
+          }
+        ]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"d/f+1, 4",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/f+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/f+3",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"d/f+3, 3",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/f+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/f+1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"d+2, 4",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"d+2, 4, 1+2",
+            "child_move":[]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d+3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d+3 (After stance ends)",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d+4",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"d+4, 1+2",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d+3+4",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"d+3+4, 1+2",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/b+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"d/b+2, 2",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"d/b+2, 2, 1+2",
+            "child_move":[]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/b+3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/b+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"b+1",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"b+1, 1+2",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"b+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"b+2, 1",
+        "child_move":[]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"b+2, 4",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"b+3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"b+4",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"b+4, 3",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"b+4, 3, 1+2",
+            "child_move":[]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"b+3+4",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"b+3+4, 3+4",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"b+2+3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u/b+3+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"BT 3+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u/b+3+4, 1+2 or BT 3+4, 1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u/b or u or u/f+3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u/f+3, 2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u/f+3, 3+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u/f+3, f+3+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u or u/f+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u/f+4, 4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u or u/f+3+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f, F+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"f, F+2, 3",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f, F+3",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"f, F+3, 4",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"f, F+3, 4, 1+2",
+            "child_move":[]
+          },
+          {
+            "^o":"Tiered_Move",
+            "command":"f, F+3, 4, 4",
+            "child_move":[
+              {
+                "^o":"Tiered_Move",
+                "command":"f, F+3, 4, 4, 1+2",
+                "child_move":[]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f, F+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f, F+4 When hit f or b+1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f, F+1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f, F+1+2 When hit 2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"b, f+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"b, B+1+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f, f, f+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f, f, f+3",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"f, f, f+3, 4",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"WR+1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"WS+1",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"WS+1, 2",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"WS+1, 2, 3",
+            "child_move":[
+              {
+                "^o":"Tiered_Move",
+                "command":"WS+1, 2, 3, 1+2",
+                "child_move":[]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"WS+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"WS+2, 3+4",
+        "child_move":[]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"WS+2, f+3+4",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"WS+3",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"WS+3, 3 (one spin)",
+        "child_move":[]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"WS+3, 3",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"WS+3, 3, B (Cancel)",
+            "child_move":[]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"WS+3, d+3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"WS+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"WS+1+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"WS+1+2, * (two spins)",
+        "child_move":[]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"WS+1+2, * (three spins)",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"FC+d/f+1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"FC+d/f+1+2 , 1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"SS+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"SS+4 , 1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"BT 4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"Opponent Down d/b+1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"Grounded face up 1+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"Grounded face up 1+2, 3+4",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"1+2+3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"1+2+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"1+2+3+4",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"1+2+3+4, 1+2",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/b+1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/b+1~1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/b+1~2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/b+1~3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d/b+1~4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f+3+4 (to SBT)",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f+3+4, B",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f+3+4, D",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"SBT 1",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"SBT 1, 2",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"SBT 1, 2, 1",
+            "child_move":[]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"SBT 1, 2, 1 , 3+4",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"SBT 1, 2, 1 , 3+4, 1+2",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"SBT 2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"SBT 2, 1+2",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"SBT 3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"SBT 4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d+1+2 or From special move (to DES)",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES b or F",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES d+1+2 or D/B (Cancel)",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES 1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES 2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES 2 When hit 1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES 3 or 4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES 1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES f+1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES f+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES f+1+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"DES f+1+2, 1+2",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES d+1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES d+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"DES d+2, *",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES b+2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"DES b+2, 1",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES b+3+4 or b, b or u/b, b",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES u or d+3+4",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"DES u or d+3+4, 1",
+        "child_move":[]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES d/f+1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES u/b or u or u/f+1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES u/f+1+2, 1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES BT 1 or 2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DES f+3+4 or f, f (to DBT)",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DBT b (Cancel)",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DBT f+3+4, u or D",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DBT 1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DBT 2",
+    "child_move":[
+      {
+        "^o":"Tiered_Move",
+        "command":"DBT 2, 1+2",
+        "child_move":[]
+      },
+      {
+        "^o":"Tiered_Move",
+        "command":"DBT 2, 1",
+        "child_move":[
+          {
+            "^o":"Tiered_Move",
+            "command":"DBT 2, 1, 1+2",
+            "child_move":[]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"DBT 1+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"f+1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"d+1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u/b or u or u/f+1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u/b or u or u/f+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"u/b+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"FC+1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"FC+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"FC+3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"FC+4",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"SS+1",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"SS+2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"SS+3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"BT 1 or 2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"BT 3",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"BT d+1 or 2",
+    "child_move":[]
+  },
+  {
+    "^o":"Tiered_Move",
+    "command":"BT d+3 or 4",
+    "child_move":[]
+  }
+]
