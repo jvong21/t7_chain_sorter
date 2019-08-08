@@ -23,13 +23,14 @@ class Chain_Sorter
     private def create_chainable_move ( move, move_list )
         current_chainable_move = [ move, Array.new ]
         processed_child_moves = Array.new 
-        start_of_move = move.command.dup << ',' # Ensures that this move actually starts a chain for a child move 
+        start_of_move_with_comma = move.command.dup << ',' # Ensures that this move actually starts a chain for a child move 
+        start_of_move_with_immediate = move.command.dup << '~' # Ensures that this move actually starts a command for child move, if the command is immediate 
         move_size = move.command.dup.split(',').length 
         move_list.each do | child_move | 
             unless child_move.command.nil? 
                 child_move_size = child_move.command.dup.split(',').length
                 move_size_difference = (child_move_size - move_size ) 
-                if child_move.command.start_with?(start_of_move) && (move_size_difference == 1) # Only operate on child moves that start with the move, and is only one command length longer 
+                if (child_move.command.start_with?(start_of_move_with_comma) || child_move.command.start_with?(start_of_move_with_immediate)) && (move_size_difference <= 1) # Only operate on child moves that start with the move, and is only one command length longer 
                     new_chainable_move = create_chainable_move(child_move, move_list)
                     current_chainable_move[1] << new_chainable_move
                     processed_child_moves.push(child_move) 
