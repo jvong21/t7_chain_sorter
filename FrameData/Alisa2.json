@@ -10,9 +10,27 @@
           {
             "^o":"Tiered_Move",
             "command":"1, 1, 1+2",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"1, 1, 1+2",
+              "hit_level":"h, h, (DES)",
+              "start_up":"10",
+              "block_advantage":"-3",
+              "hit_advantage":"=+5",
+              "counter_hit_advantage":"KND"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"1, 1",
+          "hit_level":"h, h",
+          "start_up":"10",
+          "block_advantage":"-3",
+          "hit_advantage":"=+5",
+          "counter_hit_advantage":"KND"
+        }
       },
       {
         "^o":"Tiered_Move",
@@ -21,31 +39,94 @@
           {
             "^o":"Tiered_Move",
             "command":"1, 2, 2",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"1, 2, 2",
+              "hit_level":"h, h, l",
+              "start_up":"10",
+              "block_advantage":"-11~-10",
+              "hit_advantage":"=+2~+3",
+              "counter_hit_advantage":"KND"
+            }
           },
           {
             "^o":"Tiered_Move",
             "command":"1, 2, 2*",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"1, 2, 2*",
+              "hit_level":"h, h, l",
+              "start_up":"10",
+              "block_advantage":"-10~-9",
+              "hit_advantage":"KND",
+              "counter_hit_advantage":"KND"
+            }
           },
           {
             "^o":"Tiered_Move",
             "command":"1, 2, 4",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"1, 2, 4",
+              "hit_level":"h, h, h",
+              "start_up":"10",
+              "block_advantage":"-5~-4",
+              "hit_advantage":"KND",
+              "counter_hit_advantage":"KND"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"1, 2",
+          "hit_level":"h, h",
+          "start_up":"10",
+          "block_advantage":"-2",
+          "hit_advantage":"=+4",
+          "counter_hit_advantage":"=+9"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"1",
+      "hit_level":"h",
+      "start_up":"10",
+      "block_advantage":"=+1",
+      "hit_advantage":"=+8",
+      "counter_hit_advantage":"=+8"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"1+2",
+      "hit_level":"m (TJ)",
+      "start_up":"33~34 js7~",
+      "block_advantage":"-5~-4",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"1+2+3",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"1+2+3",
+      "hit_level":"(Special) (TJ)",
+      "start_up":"a",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -54,14 +135,41 @@
       {
         "^o":"Tiered_Move",
         "command":"1+2+3+4, 1+2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"1+2+3+4, 1+2",
+          "hit_level":"(Special) (TJ), (DES)",
+          "start_up":"a",
+          "block_advantage":null,
+          "hit_advantage":null,
+          "counter_hit_advantage":null
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"1+2+3+4",
+      "hit_level":"(Special) (TJ)",
+      "start_up":"a",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"1+2+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"1+2+4",
+      "hit_level":"(Special)",
+      "start_up":"(g)",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -74,21 +182,66 @@
           {
             "^o":"Tiered_Move",
             "command":"2, 3, 3",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"2, 3, 3",
+              "hit_level":"h, m, m (TJ)",
+              "start_up":"12a",
+              "block_advantage":"-11~-9",
+              "hit_advantage":"KND",
+              "counter_hit_advantage":"KND"
+            }
           },
           {
             "^o":"Tiered_Move",
             "command":"2, 3, 4",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"2, 3, 4",
+              "hit_level":"h, m, l (TJ)",
+              "start_up":"js24~",
+              "block_advantage":"-19~-16",
+              "hit_advantage":"KND",
+              "counter_hit_advantage":"KND"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"2, 3",
+          "hit_level":"h, m",
+          "start_up":"12",
+          "block_advantage":"-10~-9",
+          "hit_advantage":"=+1~+2",
+          "counter_hit_advantage":"=+1~+2"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"2, 4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"2, 4",
+          "hit_level":"h, h",
+          "start_up":"12",
+          "block_advantage":"-5~-4",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"2",
+      "hit_level":"h",
+      "start_up":"12",
+      "block_advantage":"-6",
+      "hit_advantage":"=+5",
+      "counter_hit_advantage":"=+5"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -97,24 +250,69 @@
       {
         "^o":"Tiered_Move",
         "command":"3, 2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"3, 2",
+          "hit_level":"m, m x 5, (DES)",
+          "start_up":"14~15",
+          "block_advantage":"-9",
+          "hit_advantage":"=+1",
+          "counter_hit_advantage":"=+1"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"3",
+      "hit_level":"m",
+      "start_up":"14~15",
+      "block_advantage":"-12~-11",
+      "hit_advantage":"-1~0",
+      "counter_hit_advantage":"-1~0"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"4",
+      "hit_level":"h",
+      "start_up":"13~14",
+      "block_advantage":"-5~-4",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"b, B+1+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"b, B+1+4",
+      "hit_level":"h! (TJ)",
+      "start_up":"63~80 (64~)",
+      "block_advantage":"KND",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"b, f+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"b, f+2",
+      "hit_level":"h",
+      "start_up":"16~24 (16~) pc8~15",
+      "block_advantage":"-8~0",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -123,9 +321,27 @@
       {
         "^o":"Tiered_Move",
         "command":"b+1, 1+2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"b+1, 1+2",
+          "hit_level":"m, Sm, m",
+          "start_up":"15~16",
+          "block_advantage":"-16~-14",
+          "hit_advantage":"Launch",
+          "counter_hit_advantage":"Launch"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"b+1",
+      "hit_level":"m",
+      "start_up":"15~16s",
+      "block_advantage":"-5~-4",
+      "hit_advantage":"=+8~+9",
+      "counter_hit_advantage":"=+8~+9"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -134,24 +350,69 @@
       {
         "^o":"Tiered_Move",
         "command":"b+2, 1",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"b+2, 1",
+          "hit_level":"m, m",
+          "start_up":"18",
+          "block_advantage":"-13~-12",
+          "hit_advantage":"=+3~+4s",
+          "counter_hit_advantage":"KND"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"b+2, 4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"b+2, 4",
+          "hit_level":"m, h",
+          "start_up":"18",
+          "block_advantage":"-7~-6",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"b+2",
+      "hit_level":"m",
+      "start_up":"18",
+      "block_advantage":"-12",
+      "hit_advantage":"-2",
+      "counter_hit_advantage":"-2"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"b+2+3",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"b+2+3",
+      "hit_level":"!",
+      "start_up":"75",
+      "block_advantage":"KND",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"b+3",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"b+3",
+      "hit_level":"m",
+      "start_up":"20~22",
+      "block_advantage":"-8~-6",
+      "hit_advantage":"ED",
+      "counter_hit_advantage":"ED"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -160,9 +421,27 @@
       {
         "^o":"Tiered_Move",
         "command":"b+3+4, 3+4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"b+3+4, 3+4",
+          "hit_level":"m (TJ), m (TJ)",
+          "start_up":"js1~",
+          "block_advantage":"=+5~+10s",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"b+3+4",
+      "hit_level":"m (TJ)",
+      "start_up":"19~20 js6~",
+      "block_advantage":"-17~-16",
+      "hit_advantage":"Launch",
+      "counter_hit_advantage":"Launch"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -175,41 +454,122 @@
           {
             "^o":"Tiered_Move",
             "command":"b+4, 3, 1+2",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"b+4, 3, 1+2",
+              "hit_level":"m (TJ), m, (DES)",
+              "start_up":"1~27",
+              "block_advantage":"-11~-10",
+              "hit_advantage":"=+6~+7s",
+              "counter_hit_advantage":"KND"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"b+4, 3",
+          "hit_level":"m, m",
+          "start_up":"js1~27",
+          "block_advantage":"-11~-10",
+          "hit_advantage":"=+6~+7s",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"b+4",
+      "hit_level":"m",
+      "start_up":"15~16",
+      "block_advantage":"-13~-12",
+      "hit_advantage":"-4~-3",
+      "counter_hit_advantage":"CS"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"BT 1 or 2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"BT 1 or 2",
+      "hit_level":"h",
+      "start_up":"8",
+      "block_advantage":"-8",
+      "hit_advantage":"=+3",
+      "counter_hit_advantage":"=+3"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"BT 3",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"BT 3",
+      "hit_level":"h",
+      "start_up":"10",
+      "block_advantage":"-8",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"BT 3+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"BT 3+4",
+      "hit_level":"m (TJ)",
+      "start_up":"37~39b js5~",
+      "block_advantage":"=+2~+4s",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"BT 4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"BT 4",
+      "hit_level":"m (TJ)",
+      "start_up":"16~17b",
+      "block_advantage":"-3~-2",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"BT d+1 or 2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"BT d+1 or 2",
+      "hit_level":"Sm",
+      "start_up":"10s cs1~",
+      "block_advantage":"-2",
+      "hit_advantage":"=+9",
+      "counter_hit_advantage":"=+9"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"BT d+3 or 4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"BT d+3 or 4",
+      "hit_level":"l",
+      "start_up":"10s cs1~",
+      "block_advantage":"-11",
+      "hit_advantage":"=+3",
+      "counter_hit_advantage":"=+3"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -218,24 +578,69 @@
       {
         "^o":"Tiered_Move",
         "command":"d/b+1~1",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"d/b+1~1",
+          "hit_level":"h",
+          "start_up":"11~13 (26~) cs4~15",
+          "block_advantage":"=+4~+6",
+          "hit_advantage":"KMED",
+          "counter_hit_advantage":"KMED"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"d/b+1~2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"d/b+1~2",
+          "hit_level":"h! (Sky)",
+          "start_up":"34~75(49~)",
+          "block_advantage":"KND",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"d/b+1~3",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"d/b+1~3",
+          "hit_level":"m (TJ)",
+          "start_up":"24~27 (39~) js15~",
+          "block_advantage":"-9",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"d/b+1~4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"d/b+1~4",
+          "hit_level":"m",
+          "start_up":"18~23 (33~) js17~",
+          "block_advantage":"-9~-4",
+          "hit_advantage":"Launch",
+          "counter_hit_advantage":"Launch"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d/b+1",
+      "hit_level":"(Special) (TC)",
+      "start_up":"s(cs4) 15~",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -248,21 +653,66 @@
           {
             "^o":"Tiered_Move",
             "command":"d/b+2, 2, 1+2",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"d/b+2, 2, 1+2",
+              "hit_level":"m, m, (DES)",
+              "start_up":"18~19",
+              "block_advantage":"-10~-9",
+              "hit_advantage":"=+14~+15 (SH)",
+              "counter_hit_advantage":"=+14~+15 (SH)"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"d/b+2, 2",
+          "hit_level":"m, m",
+          "start_up":"18~19",
+          "block_advantage":"-10~-9",
+          "hit_advantage":"=+14~+15 (SH)",
+          "counter_hit_advantage":"=+14~+15 (SH)"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d/b+2",
+      "hit_level":"m",
+      "start_up":"18~19",
+      "block_advantage":"-18~-17",
+      "hit_advantage":"-5~-4",
+      "counter_hit_advantage":"-5~-4"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"d/b+3",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d/b+3",
+      "hit_level":"l (TC)",
+      "start_up":"16s cs4~",
+      "block_advantage":"-12",
+      "hit_advantage":"-1",
+      "counter_hit_advantage":"=+4"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"d/b+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d/b+4",
+      "hit_level":"l (TC)",
+      "start_up":"24~25a cs6~",
+      "block_advantage":"-17~-16",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -275,26 +725,80 @@
           {
             "^o":"Tiered_Move",
             "command":"d/f+1, 1, 2",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"d/f+1, 1, 2",
+              "hit_level":"m, h, h x 7, (DES)",
+              "start_up":"13",
+              "block_advantage":"=+6",
+              "hit_advantage":"=+8",
+              "counter_hit_advantage":"=+8"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"d/f+1, 1",
+          "hit_level":"m, h",
+          "start_up":"13",
+          "block_advantage":"=+1~+2",
+          "hit_advantage":"=+8~+9",
+          "counter_hit_advantage":"=+8~+9"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"d/f+1, 4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"d/f+1, 4",
+          "hit_level":"m, m",
+          "start_up":"13",
+          "block_advantage":"-9~-8",
+          "hit_advantage":"=+5~+6s",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d/f+1",
+      "hit_level":"m",
+      "start_up":"13",
+      "block_advantage":"-6",
+      "hit_advantage":"=+5",
+      "counter_hit_advantage":"=+8"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"d/f+1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d/f+1+2",
+      "hit_level":"m, (DES)",
+      "start_up":"18",
+      "block_advantage":"-14",
+      "hit_advantage":"CS",
+      "counter_hit_advantage":"CS"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"d/f+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d/f+2",
+      "hit_level":"m",
+      "start_up":"16~17",
+      "block_advantage":"-9~-8",
+      "hit_advantage":"Launch (JG?)(+7)",
+      "counter_hit_advantage":"Launch (JG?)"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -303,24 +807,69 @@
       {
         "^o":"Tiered_Move",
         "command":"d/f+3, 3",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"d/f+3, 3",
+          "hit_level":"m, l",
+          "start_up":"16",
+          "block_advantage":"-12~-11",
+          "hit_advantage":"=+1~+2",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d/f+3",
+      "hit_level":"m",
+      "start_up":"16",
+      "block_advantage":"-9",
+      "hit_advantage":"=+1",
+      "counter_hit_advantage":"=+1"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"d/f+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d/f+4",
+      "hit_level":"m",
+      "start_up":"12",
+      "block_advantage":"-7",
+      "hit_advantage":"=+4",
+      "counter_hit_advantage":"=+4"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"d+1",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d+1",
+      "hit_level":"Sm (TC)",
+      "start_up":"10s cs4~",
+      "block_advantage":"-5",
+      "hit_advantage":"=+6",
+      "counter_hit_advantage":"=+6"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"d+1+2 or From special move (to DES)",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d+1+2 or From special move (to DES)",
+      "hit_level":"(DES)",
+      "start_up":"18~19 (43~) 1~",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -333,21 +882,66 @@
           {
             "^o":"Tiered_Move",
             "command":"d+2, 4, 1+2",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"d+2, 4, 1+2",
+              "hit_level":"m, m, (DES)",
+              "start_up":"24~26a",
+              "block_advantage":"-13~-10",
+              "hit_advantage":"KND",
+              "counter_hit_advantage":"KND"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"d+2, 4",
+          "hit_level":"m, m",
+          "start_up":"24~26a",
+          "block_advantage":"-13~-10",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d+2",
+      "hit_level":"m",
+      "start_up":"24~26",
+      "block_advantage":"-14~-12",
+      "hit_advantage":"=+2~+4s",
+      "counter_hit_advantage":"=+2~+4s"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"d+3",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d+3",
+      "hit_level":"l (TJ), (Special) (TC)",
+      "start_up":"23~32s js9~",
+      "block_advantage":"-10~-1",
+      "hit_advantage":"=+8~+17",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"d+3 (After stance ends)",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d+3 (After stance ends)",
+      "hit_level":"l (TJ), (Special) (TC)",
+      "start_up":"23~32s js9~",
+      "block_advantage":"-19~-10",
+      "hit_advantage":"-1~+8",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -356,9 +950,27 @@
       {
         "^o":"Tiered_Move",
         "command":"d+3+4, 1+2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"d+3+4, 1+2",
+          "hit_level":"l (TJ), (DES)",
+          "start_up":"27~28 js5~ cs20~",
+          "block_advantage":null,
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d+3+4",
+      "hit_level":"l (TJ)",
+      "start_up":"27~28 js5~ cs20~",
+      "block_advantage":"-37",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -367,19 +979,55 @@
       {
         "^o":"Tiered_Move",
         "command":"d+4, 1+2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"d+4, 1+2",
+          "hit_level":"l, h",
+          "start_up":"17~18",
+          "block_advantage":"=+2",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"d+4",
+      "hit_level":"l",
+      "start_up":"17~18",
+      "block_advantage":"-16~-15",
+      "hit_advantage":"-5~-4",
+      "counter_hit_advantage":"-5~-4"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DBT 1",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DBT 1",
+      "hit_level":"h x 6",
+      "start_up":"24,,, js1~20",
+      "block_advantage":"=+9",
+      "hit_advantage":"=+11",
+      "counter_hit_advantage":"=+11"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DBT 1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DBT 1+2",
+      "hit_level":"mmmm",
+      "start_up":"12,,, js1~",
+      "block_advantage":"0",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -392,56 +1040,164 @@
           {
             "^o":"Tiered_Move",
             "command":"DBT 2, 1, 1+2",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"DBT 2, 1, 1+2",
+              "hit_level":"mmhh, h (TJ), (Special)",
+              "start_up":"js1~",
+              "block_advantage":"-12~10s",
+              "hit_advantage":"KND",
+              "counter_hit_advantage":"KND"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"DBT 2, 1",
+          "hit_level":"mmhh, h (TJ)",
+          "start_up":"js1~",
+          "block_advantage":"-12~10s",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"DBT 2, 1+2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"DBT 2, 1+2",
+          "hit_level":"mmhhh, (Special)",
+          "start_up":"16~17,,, js1~",
+          "block_advantage":"-14",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DBT 2",
+      "hit_level":"mmhhh",
+      "start_up":"16~17,,, js1~",
+      "block_advantage":"-14",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DBT b (Cancel)",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DBT b (Cancel)",
+      "hit_level":"(Special)",
+      "start_up":"19,,,",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DBT f+3+4, u or D",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DBT f+3+4, u or D",
+      "hit_level":"(Special) (TJ)",
+      "start_up":"19,,,",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES 1",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES 1",
+      "hit_level":"mmhhhm",
+      "start_up":"14,,,",
+      "block_advantage":"-9",
+      "hit_advantage":"KZUD",
+      "counter_hit_advantage":"KZUD"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES 1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES 1+2",
+      "hit_level":"hhh",
+      "start_up":"16,,",
+      "block_advantage":"0",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES 2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES 2",
+      "hit_level":"mmm",
+      "start_up":"20,,",
+      "block_advantage":"-8",
+      "hit_advantage":"Launch (JG?)",
+      "counter_hit_advantage":"Launch (JG?)"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES 2 When hit 1",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES 2 When hit 1",
+      "hit_level":"m x 3, h!",
+      "start_up":"20,,",
+      "block_advantage":null,
+      "hit_advantage":"Launch",
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES 3 or 4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES 3 or 4",
+      "hit_level":null,
+      "start_up":"20,,",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES b or F",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES b or F",
+      "hit_level":"(DES)",
+      "start_up":"18~19 (43~) 1~",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -450,34 +1206,97 @@
       {
         "^o":"Tiered_Move",
         "command":"DES b+2, 1",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"DES b+2, 1",
+          "hit_level":"m, m, Sm x 4",
+          "start_up":"18~20",
+          "block_advantage":"-8s",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES b+2",
+      "hit_level":"m",
+      "start_up":"18~20",
+      "block_advantage":"-12~-10",
+      "hit_advantage":"0~+2",
+      "counter_hit_advantage":"CS"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES b+3+4 or b, b or u/b, b",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES b+3+4 or b, b or u/b, b",
+      "hit_level":"(Special) (TJ)",
+      "start_up":"a",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES BT 1 or 2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES BT 1 or 2",
+      "hit_level":"m x 6",
+      "start_up":"19,,,",
+      "block_advantage":"-9",
+      "hit_advantage":"CS",
+      "counter_hit_advantage":"CS"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES d/f+1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES d/f+1+2",
+      "hit_level":"m, (DES)",
+      "start_up":"18",
+      "block_advantage":"-14",
+      "hit_advantage":"CS",
+      "counter_hit_advantage":"CS"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES d+1",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES d+1",
+      "hit_level":"l x 5 (TC)",
+      "start_up":"20~21, cs4~",
+      "block_advantage":"-12",
+      "hit_advantage":"=+3s",
+      "counter_hit_advantage":"=+3s"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES d+1+2 or D/B (Cancel)",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES d+1+2 or D/B (Cancel)",
+      "hit_level":"(DES)",
+      "start_up":"18~19 (43~) 1~",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -486,14 +1305,41 @@
       {
         "^o":"Tiered_Move",
         "command":"DES d+2, *",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"DES d+2, *",
+          "hit_level":"l x 5 or 6",
+          "start_up":"30,,,",
+          "block_advantage":"-14~-13",
+          "hit_advantage":"=+2~+3",
+          "counter_hit_advantage":"2~+3"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES d+2",
+      "hit_level":"llll",
+      "start_up":"30,,,",
+      "block_advantage":"-14~-13",
+      "hit_advantage":"=+2~+3",
+      "counter_hit_advantage":"2~+3"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES f+1",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES f+1",
+      "hit_level":"h x 7",
+      "start_up":"12,,,",
+      "block_advantage":"0",
+      "hit_advantage":"=+11",
+      "counter_hit_advantage":"=+11"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -502,19 +1348,55 @@
       {
         "^o":"Tiered_Move",
         "command":"DES f+1+2, 1+2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"DES f+1+2, 1+2",
+          "hit_level":"m x 5, m",
+          "start_up":"23,,,(b)",
+          "block_advantage":"-53",
+          "hit_advantage":"Launch",
+          "counter_hit_advantage":"Launch"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES f+1+2",
+      "hit_level":"m x 8",
+      "start_up":"23,,,",
+      "block_advantage":"=+7",
+      "hit_advantage":"CS",
+      "counter_hit_advantage":"CS"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES f+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES f+2",
+      "hit_level":"(Sky)!",
+      "start_up":"10,,,",
+      "block_advantage":null,
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES f+3+4 or f, f (to DBT)",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES f+3+4 or f, f (to DBT)",
+      "hit_level":"(DBT)",
+      "start_up":"19,,,",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -523,24 +1405,69 @@
       {
         "^o":"Tiered_Move",
         "command":"DES u or d+3+4, 1",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"DES u or d+3+4, 1",
+          "hit_level":"(Special) (TJ), m",
+          "start_up":"20~21 (44~)",
+          "block_advantage":"-10",
+          "hit_advantage":"CS",
+          "counter_hit_advantage":"CS"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES u or d+3+4",
+      "hit_level":"(Special) (TJ)",
+      "start_up":null,
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES u/b or u or u/f+1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES u/b or u or u/f+1+2",
+      "hit_level":"mmm (TJ)",
+      "start_up":"29,,, js5~28",
+      "block_advantage":"-9s",
+      "hit_advantage":"CS",
+      "counter_hit_advantage":"CS"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES u/f+1+2, 1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES u/f+1+2, 1+2",
+      "hit_level":"m x 3 (TJ), (Special)",
+      "start_up":"29,,, js5~28",
+      "block_advantage":"-9s",
+      "hit_advantage":"CS",
+      "counter_hit_advantage":"CS"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"f, f, f+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f, f, f+2",
+      "hit_level":"h",
+      "start_up":"13~15 (16~) js3~",
+      "block_advantage":"=+5~+7",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -549,19 +1476,55 @@
       {
         "^o":"Tiered_Move",
         "command":"f, f, f+3, 4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"f, f, f+3, 4",
+          "hit_level":"m (TJ), m (TJ)",
+          "start_up":"js1~",
+          "block_advantage":"-7~-5",
+          "hit_advantage":"KMED",
+          "counter_hit_advantage":"KMED"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f, f, f+3",
+      "hit_level":"m (TJ)",
+      "start_up":"18~19 (21~) js3~",
+      "block_advantage":"-4~-3",
+      "hit_advantage":"=+6~+7",
+      "counter_hit_advantage":"=+6~+7"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"f, F+1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f, F+1+2",
+      "hit_level":"mm",
+      "start_up":"17~18, 30~31 (18~)",
+      "block_advantage":"-16~-15",
+      "hit_advantage":"CS",
+      "counter_hit_advantage":"CS"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"f, F+1+2 When hit 2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f, F+1+2 When hit 2",
+      "hit_level":"mm, m x 6, (DES)",
+      "start_up":"17~18, 30~31 (18~)",
+      "block_advantage":null,
+      "hit_advantage":"CS",
+      "counter_hit_advantage":"CS"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -570,9 +1533,27 @@
       {
         "^o":"Tiered_Move",
         "command":"f, F+2, 3",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"f, F+2, 3",
+          "hit_level":"m, m",
+          "start_up":"16~17 (17~)",
+          "block_advantage":"-13~-11",
+          "hit_advantage":"KMED",
+          "counter_hit_advantage":"KMED"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f, F+2",
+      "hit_level":"m",
+      "start_up":"16~17 (17~)",
+      "block_advantage":"-18~-17",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -585,7 +1566,16 @@
           {
             "^o":"Tiered_Move",
             "command":"f, F+3, 4, 1+2",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"f, F+3, 4, 1+2",
+              "hit_level":"m, h (TJ), (DES)",
+              "start_up":"js1~",
+              "block_advantage":"-9~-8",
+              "hit_advantage":"KND",
+              "counter_hit_advantage":"KND"
+            }
           },
           {
             "^o":"Tiered_Move",
@@ -594,28 +1584,91 @@
               {
                 "^o":"Tiered_Move",
                 "command":"f, F+3, 4, 4, 1+2",
-                "child_move":[]
+                "child_move":[],
+                "full_move_details":{
+                  "^o":"T7_Move",
+                  "command":"f, F+3, 4, 4, 1+2",
+                  "hit_level":"m, h (TJ), m, (DES)",
+                  "start_up":"js1~12",
+                  "block_advantage":"-10~-8",
+                  "hit_advantage":"KND",
+                  "counter_hit_advantage":"KND"
+                }
               }
-            ]
+            ],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"f, F+3, 4, 4",
+              "hit_level":"m, h (TJ), m",
+              "start_up":"js1~12",
+              "block_advantage":"-10~-8",
+              "hit_advantage":"KND",
+              "counter_hit_advantage":"KND"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"f, F+3, 4",
+          "hit_level":"m, h (TJ)",
+          "start_up":"js1~",
+          "block_advantage":"-9~-8",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f, F+3",
+      "hit_level":"m",
+      "start_up":"18~19 (19~) js15~",
+      "block_advantage":"-18~-17",
+      "hit_advantage":"-6~-5",
+      "counter_hit_advantage":"-6~-5"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"f, F+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f, F+4",
+      "hit_level":"m",
+      "start_up":"19~26 (20~)",
+      "block_advantage":"-11~-4",
+      "hit_advantage":"Throw(+5b)",
+      "counter_hit_advantage":"Throw(+5b)"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"f, F+4 When hit f or b+1",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f, F+4 When hit f or b+1",
+      "hit_level":"m, m",
+      "start_up":"19~26 (20~)",
+      "block_advantage":null,
+      "hit_advantage":"KND",
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"f+1",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f+1",
+      "hit_level":"h",
+      "start_up":"10",
+      "block_advantage":"=+1",
+      "hit_advantage":"=+8",
+      "counter_hit_advantage":"=+8"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -624,14 +1677,41 @@
       {
         "^o":"Tiered_Move",
         "command":"f+1+2, 3+4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"f+1+2, 3+4",
+          "hit_level":"m, (Special) (TJ)(SBT)",
+          "start_up":"14~15a",
+          "block_advantage":"-16~-15",
+          "hit_advantage":"=+3~+4",
+          "counter_hit_advantage":"=+3~+4"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"f+1+2, f+3+4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"f+1+2, f+3+4",
+          "hit_level":"m, (Special) (TJ)(DBT)",
+          "start_up":"14~15a",
+          "block_advantage":"-16~-15",
+          "hit_advantage":"=+3~+4",
+          "counter_hit_advantage":"=+3~+4"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f+1+2",
+      "hit_level":"m",
+      "start_up":"14~15",
+      "block_advantage":"-12~-11",
+      "hit_advantage":"=+7~+8",
+      "counter_hit_advantage":"=+7~+8"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -640,12 +1720,30 @@
       {
         "^o":"Tiered_Move",
         "command":"f+2, 1",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"f+2, 1",
+          "hit_level":"m, m, (DES)",
+          "start_up":"17~18",
+          "block_advantage":"-14",
+          "hit_advantage":"CS",
+          "counter_hit_advantage":"CS"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"f+2, 1+2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"f+2, 1+2",
+          "hit_level":"m, (DES)",
+          "start_up":"17~18",
+          "block_advantage":"-4~-3",
+          "hit_advantage":"=+7~+8",
+          "counter_hit_advantage":"=+7~+8"
+        }
       },
       {
         "^o":"Tiered_Move",
@@ -654,16 +1752,52 @@
           {
             "^o":"Tiered_Move",
             "command":"f+2, 3, 3",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"f+2, 3, 3",
+              "hit_level":"m, h (TJ), m",
+              "start_up":"js1~12",
+              "block_advantage":"-10~-9",
+              "hit_advantage":"ED",
+              "counter_hit_advantage":"ED"
+            }
           },
           {
             "^o":"Tiered_Move",
             "command":"f+2, 3, f",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"f+2, 3, f",
+              "hit_level":"m, h (TJ), (Special)",
+              "start_up":"17~a",
+              "block_advantage":"-12",
+              "hit_advantage":"0",
+              "counter_hit_advantage":"0"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"f+2, 3",
+          "hit_level":"m, h (TJ)",
+          "start_up":"js17~",
+          "block_advantage":"-8",
+          "hit_advantage":"=+4",
+          "counter_hit_advantage":"=+4"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f+2",
+      "hit_level":"m",
+      "start_up":"17~18",
+      "block_advantage":"-4~-3",
+      "hit_advantage":"=+7~+8",
+      "counter_hit_advantage":"=+7~+8"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -672,29 +1806,83 @@
       {
         "^o":"Tiered_Move",
         "command":"f+3, 1+2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"f+3, 1+2",
+          "hit_level":"h, m, (DES)",
+          "start_up":"14~15",
+          "block_advantage":"-13~-12",
+          "hit_advantage":"CS",
+          "counter_hit_advantage":"CS"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"f+3, 2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"f+3, 2",
+          "hit_level":"h, h, (DES)",
+          "start_up":"14~15",
+          "block_advantage":"-4~-2",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f+3",
+      "hit_level":"h",
+      "start_up":"14~15",
+      "block_advantage":"-14~-13",
+      "hit_advantage":"-3~-2",
+      "counter_hit_advantage":"-3~-2"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"f+3+4 (to SBT)",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f+3+4 (to SBT)",
+      "hit_level":"(Special) (TJ)(SBT)",
+      "start_up":"18~23 (33~) 17~",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"f+3+4, B",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f+3+4, B",
+      "hit_level":"(Special)",
+      "start_up":"s(47~)",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"f+3+4, D",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f+3+4, D",
+      "hit_level":"(Special)",
+      "start_up":"s(36~)",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -707,41 +1895,122 @@
           {
             "^o":"Tiered_Move",
             "command":"f+4, 1, 4",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"f+4, 1, 4",
+              "hit_level":"m, h, m",
+              "start_up":"16",
+              "block_advantage":"-14~+12 (-12)",
+              "hit_advantage":"KND",
+              "counter_hit_advantage":"KND"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"f+4, 1",
+          "hit_level":"m, h",
+          "start_up":"16",
+          "block_advantage":"-9~-8",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"f+4",
+      "hit_level":"m",
+      "start_up":"16",
+      "block_advantage":"-12",
+      "hit_advantage":"-2",
+      "counter_hit_advantage":"-2"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"FC+1",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"FC+1",
+      "hit_level":"Sm (TC)",
+      "start_up":"10s cs1~",
+      "block_advantage":"-5",
+      "hit_advantage":"=+6",
+      "counter_hit_advantage":"=+6"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"FC+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"FC+2",
+      "hit_level":"Sm (TC)",
+      "start_up":"11s cs1~",
+      "block_advantage":"-4",
+      "hit_advantage":"=+7",
+      "counter_hit_advantage":"=+7"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"FC+3",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"FC+3",
+      "hit_level":"l (TC)",
+      "start_up":"16s cs1~",
+      "block_advantage":"-17",
+      "hit_advantage":"-3",
+      "counter_hit_advantage":"-3"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"FC+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"FC+4",
+      "hit_level":"l (TC)",
+      "start_up":"12s cs1~",
+      "block_advantage":"-15",
+      "hit_advantage":"-4",
+      "counter_hit_advantage":"-4"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"FC+d/f+1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"FC+d/f+1+2",
+      "hit_level":"ll",
+      "start_up":"21~23, 31~33 cs1~",
+      "block_advantage":"-11~-9",
+      "hit_advantage":"=+5~+7s",
+      "counter_hit_advantage":"=+5~+7s"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"FC+d/f+1+2 , 1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"FC+d/f+1+2 , 1+2",
+      "hit_level":"ll, (DES)",
+      "start_up":"21~23, 31~33 cs1~",
+      "block_advantage":"-11~-9",
+      "hit_advantage":"=+5~+7s",
+      "counter_hit_advantage":"=+5~+7s"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -750,14 +2019,41 @@
       {
         "^o":"Tiered_Move",
         "command":"Grounded face up 1+2, 3+4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"Grounded face up 1+2, 3+4",
+          "hit_level":"(Special) (TJ), m (TJ)",
+          "start_up":"22~23 (42~43) js1~",
+          "block_advantage":"-10~-9",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"Grounded face up 1+2",
+      "hit_level":"(Special) (TJ)",
+      "start_up":"a",
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"in rage b+1+2 in rage WS+b+1+2 in rage DES b+1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"in rage b+1+2 in rage WS+b+1+2 in rage DES b+1+2",
+      "hit_level":"h x 6, (DES)",
+      "start_up":"13(~43?) pc8~",
+      "block_advantage":"=+1",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -766,19 +2062,55 @@
       {
         "^o":"Tiered_Move",
         "command":"in rage f+2+3, 3+4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"in rage f+2+3, 3+4",
+          "hit_level":"m (TJ)m, (SBT)",
+          "start_up":"16~17 ,36~37",
+          "block_advantage":"=+5~+6",
+          "hit_advantage":"SPD",
+          "counter_hit_advantage":"SPD"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"in rage f+2+3, f+3+4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"in rage f+2+3, f+3+4",
+          "hit_level":"m (TJ)m, (DBT)",
+          "start_up":"16~17 ,36~37",
+          "block_advantage":"=+5~+6",
+          "hit_advantage":"SPD",
+          "counter_hit_advantage":"SPD"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"in rage f+2+3",
+      "hit_level":"m (TJ)m",
+      "start_up":"16~17 ,36~37",
+      "block_advantage":"0~+1",
+      "hit_advantage":"SPD",
+      "counter_hit_advantage":"SPD"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"Opponent Down d/b+1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"Opponent Down d/b+1+2",
+      "hit_level":"l(On grounded opponent)",
+      "start_up":"24~26",
+      "block_advantage":"-14",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -791,11 +2123,38 @@
           {
             "^o":"Tiered_Move",
             "command":"SBT 1, 2, 1",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"SBT 1, 2, 1",
+              "hit_level":"m, m, m",
+              "start_up":"js1~",
+              "block_advantage":"-20~-19",
+              "hit_advantage":"-12~-11",
+              "counter_hit_advantage":"-12~-11"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"SBT 1, 2",
+          "hit_level":"m, m",
+          "start_up":"js1~",
+          "block_advantage":"-9~-8",
+          "hit_advantage":"=+2~+3",
+          "counter_hit_advantage":"=+7~+8s"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"SBT 1",
+      "hit_level":"m",
+      "start_up":"13~14 (38~) js1~",
+      "block_advantage":"-15~-14",
+      "hit_advantage":"0~+1",
+      "counter_hit_advantage":"0~+1"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -804,9 +2163,27 @@
       {
         "^o":"Tiered_Move",
         "command":"SBT 1, 2, 1 , 3+4, 1+2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"SBT 1, 2, 1 , 3+4, 1+2",
+          "hit_level":"m, m, m, mm, (DES)",
+          "start_up":"js1~",
+          "block_advantage":"-18~-17",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"SBT 1, 2, 1 , 3+4",
+      "hit_level":"m, m, m, mm",
+      "start_up":"js1~",
+      "block_advantage":"-18",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -815,109 +2192,307 @@
       {
         "^o":"Tiered_Move",
         "command":"SBT 2, 1+2",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"SBT 2, 1+2",
+          "hit_level":"m, (DES)",
+          "start_up":"16~27 (41~) js1~",
+          "block_advantage":"-8~+3",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"SBT 2",
+      "hit_level":"m",
+      "start_up":"16~27 (41~) js1~",
+      "block_advantage":"-8~+3",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"SBT 3",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"SBT 3",
+      "hit_level":"l",
+      "start_up":"16~20s (41~) js1~cs9~",
+      "block_advantage":"-14~-10",
+      "hit_advantage":"=+4~+8s",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"SBT 4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"SBT 4",
+      "hit_level":"m",
+      "start_up":"18~19 (43~) js1~",
+      "block_advantage":"-27~-26",
+      "hit_advantage":"Launch",
+      "counter_hit_advantage":"Launch"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"SS+1",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"SS+1",
+      "hit_level":"h",
+      "start_up":"10(11~)",
+      "block_advantage":"=+1",
+      "hit_advantage":"=+8",
+      "counter_hit_advantage":"=+8"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"SS+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"SS+2",
+      "hit_level":"h",
+      "start_up":"12(13~)",
+      "block_advantage":"-6",
+      "hit_advantage":"=+5",
+      "counter_hit_advantage":"=+5"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"SS+3",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"SS+3",
+      "hit_level":"m",
+      "start_up":"14~15 (15~)",
+      "block_advantage":"-12~-11",
+      "hit_advantage":"-1~0",
+      "counter_hit_advantage":"-1~0"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"SS+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"SS+4",
+      "hit_level":"l",
+      "start_up":"24~25 (33~) cs6~",
+      "block_advantage":"-12~-11",
+      "hit_advantage":"=+2",
+      "counter_hit_advantage":"=+7~+8"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"SS+4 , 1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"SS+4 , 1+2",
+      "hit_level":"l, h x 3 (TJ), m (TJ)",
+      "start_up":"js15~",
+      "block_advantage":"-10~-9",
+      "hit_advantage":"=+8~+9",
+      "counter_hit_advantage":"=+8~+9"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u or u/f+3+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u or u/f+3+4",
+      "hit_level":"m (TJ)",
+      "start_up":"38~41 js9~",
+      "block_advantage":"0~+3",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u or u/f+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u or u/f+4",
+      "hit_level":"m (TJ)",
+      "start_up":"15~16 js9~",
+      "block_advantage":"-15~-14",
+      "hit_advantage":"-4~-3",
+      "counter_hit_advantage":"-4~-3"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u/b or u or u/f+1",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u/b or u or u/f+1",
+      "hit_level":"m (TJ)",
+      "start_up":"18 js9~",
+      "block_advantage":"-8",
+      "hit_advantage":"=+3",
+      "counter_hit_advantage":"=+3"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u/b or u or u/f+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u/b or u or u/f+2",
+      "hit_level":"h",
+      "start_up":"15~16",
+      "block_advantage":"-12~-11",
+      "hit_advantage":"=+9~+10g",
+      "counter_hit_advantage":"=+9~+10g"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u/b or u or u/f+3",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u/b or u or u/f+3",
+      "hit_level":"m (TJ)",
+      "start_up":"20~21 js9~",
+      "block_advantage":"-52~-51",
+      "hit_advantage":"-24~-23 (SH)",
+      "counter_hit_advantage":"-24~-23 (SH)"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u/b+3+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u/b+3+4",
+      "hit_level":"m (TJ)",
+      "start_up":"37~39 js5~",
+      "block_advantage":"=+2~+4s",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u/b+3+4, 1+2 or BT 3+4, 1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u/b+3+4, 1+2 or BT 3+4, 1+2",
+      "hit_level":"m (TJ), m?",
+      "start_up":"js1~20 ar48~",
+      "block_advantage":"-14~-13",
+      "hit_advantage":"Launch",
+      "counter_hit_advantage":"Launch"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u/b+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u/b+4",
+      "hit_level":"m (TJ)",
+      "start_up":"17~18 js9~",
+      "block_advantage":"-9~-8",
+      "hit_advantage":"=+7~+8",
+      "counter_hit_advantage":"=+7~+8"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u/f+3, 2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u/f+3, 2",
+      "hit_level":"m (TJ), m (TJ)",
+      "start_up":"js1~",
+      "block_advantage":"-14~-9",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u/f+3, 3+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u/f+3, 3+4",
+      "hit_level":"m (TJ), (Special) (TJ)(SBT)",
+      "start_up":"js1~",
+      "block_advantage":"-29~-28",
+      "hit_advantage":"-3~-2 (SH)",
+      "counter_hit_advantage":"-3~-2 (SH)"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u/f+3, f+3+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u/f+3, f+3+4",
+      "hit_level":"m (TJ), (Special) (TJ)(DBT)",
+      "start_up":"js1~",
+      "block_advantage":"-29~-28",
+      "hit_advantage":"-3~-2 (SH)",
+      "counter_hit_advantage":"-3~-2 (SH)"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"u/f+4, 4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"u/f+4, 4",
+      "hit_level":"m (TJ), m",
+      "start_up":"js1~",
+      "block_advantage":"-13~-11s",
+      "hit_advantage":"BU",
+      "counter_hit_advantage":"BU"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"WR+1+2",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"WR+1+2",
+      "hit_level":"m (TJ)",
+      "start_up":"18~36 js5~",
+      "block_advantage":"-3~+15",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -934,13 +2509,49 @@
               {
                 "^o":"Tiered_Move",
                 "command":"WS+1, 2, 3, 1+2",
-                "child_move":[]
+                "child_move":[],
+                "full_move_details":{
+                  "^o":"T7_Move",
+                  "command":"WS+1, 2, 3, 1+2",
+                  "hit_level":"m, h, m, (DES)",
+                  "start_up":"13~14",
+                  "block_advantage":"-10~-9",
+                  "hit_advantage":"Launch",
+                  "counter_hit_advantage":"Launch"
+                }
               }
-            ]
+            ],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"WS+1, 2, 3",
+              "hit_level":"m, h, m",
+              "start_up":"13~14",
+              "block_advantage":"-10~-9",
+              "hit_advantage":"Launch",
+              "counter_hit_advantage":"Launch"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"WS+1, 2",
+          "hit_level":"m, h",
+          "start_up":"13~14",
+          "block_advantage":"-5~-4",
+          "hit_advantage":"=+6~+7",
+          "counter_hit_advantage":"=+6~+7"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"WS+1",
+      "hit_level":"m",
+      "start_up":"13~14",
+      "block_advantage":"-12~-11",
+      "hit_advantage":"-1~0",
+      "counter_hit_advantage":"-1~0"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -949,14 +2560,41 @@
       {
         "^o":"Tiered_Move",
         "command":"WS+1+2, * (three spins)",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"WS+1+2, * (three spins)",
+          "hit_level":"m",
+          "start_up":"39~40s",
+          "block_advantage":"0~+1",
+          "hit_advantage":"AZUD",
+          "counter_hit_advantage":"AZUD"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"WS+1+2, * (two spins)",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"WS+1+2, * (two spins)",
+          "hit_level":"m",
+          "start_up":"28~29s",
+          "block_advantage":"-4~-3",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"WS+1+2",
+      "hit_level":"m",
+      "start_up":"20~21s",
+      "block_advantage":"-8~-7",
+      "hit_advantage":"KND",
+      "counter_hit_advantage":"KND"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -965,14 +2603,41 @@
       {
         "^o":"Tiered_Move",
         "command":"WS+2, 3+4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"WS+2, 3+4",
+          "hit_level":"m, (Special) (TJ)(SBT)",
+          "start_up":"17~18 js1~",
+          "block_advantage":"-7~-6",
+          "hit_advantage":"Launch",
+          "counter_hit_advantage":"Launch"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"WS+2, f+3+4",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"WS+2, f+3+4",
+          "hit_level":"m, (Special) (TJ)(DBT)",
+          "start_up":"17~18 js1~",
+          "block_advantage":"-7~-6",
+          "hit_advantage":"Launch",
+          "counter_hit_advantage":"Launch"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"WS+2",
+      "hit_level":"m",
+      "start_up":"17~18",
+      "block_advantage":"-13~-12",
+      "hit_advantage":"Launch",
+      "counter_hit_advantage":"Launch"
+    }
   },
   {
     "^o":"Tiered_Move",
@@ -985,40 +2650,121 @@
           {
             "^o":"Tiered_Move",
             "command":"WS+3, 3, B (Cancel)",
-            "child_move":[]
+            "child_move":[],
+            "full_move_details":{
+              "^o":"T7_Move",
+              "command":"WS+3, 3, B (Cancel)",
+              "hit_level":"m, (Special)",
+              "start_up":"19~20",
+              "block_advantage":"-14~-13",
+              "hit_advantage":"-1~0",
+              "counter_hit_advantage":"-1~0"
+            }
           }
-        ]
+        ],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"WS+3, 3",
+          "hit_level":"m",
+          "start_up":"13~14",
+          "block_advantage":"0~+1",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"WS+3, 3 (one spin)",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"WS+3, 3 (one spin)",
+          "hit_level":"m",
+          "start_up":"13~14",
+          "block_advantage":"-10~-9",
+          "hit_advantage":"=+11kg",
+          "counter_hit_advantage":"KND"
+        }
       },
       {
         "^o":"Tiered_Move",
         "command":"WS+3, d+3",
-        "child_move":[]
+        "child_move":[],
+        "full_move_details":{
+          "^o":"T7_Move",
+          "command":"WS+3, d+3",
+          "hit_level":"l (TC)",
+          "start_up":"30~31s cs9~",
+          "block_advantage":"-12~-11",
+          "hit_advantage":"KND",
+          "counter_hit_advantage":"KND"
+        }
       }
-    ]
+    ],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"WS+3",
+      "hit_level":"m, (Special)",
+      "start_up":"19~20a",
+      "block_advantage":"-135~-134",
+      "hit_advantage":"-126~-125",
+      "counter_hit_advantage":"-126~-125"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"WS+4",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"WS+4",
+      "hit_level":"m",
+      "start_up":"11~12",
+      "block_advantage":"-5~-4",
+      "hit_advantage":"=+6~+7",
+      "counter_hit_advantage":"=+6~+7"
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DES",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DES",
+      "hit_level":null,
+      "start_up":null,
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"SBT",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"SBT",
+      "hit_level":null,
+      "start_up":null,
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   },
   {
     "^o":"Tiered_Move",
     "command":"DBT",
-    "child_move":[]
+    "child_move":[],
+    "full_move_details":{
+      "^o":"T7_Move",
+      "command":"DBT",
+      "hit_level":null,
+      "start_up":null,
+      "block_advantage":null,
+      "hit_advantage":null,
+      "counter_hit_advantage":null
+    }
   }
 ]

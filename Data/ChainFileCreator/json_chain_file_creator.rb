@@ -38,6 +38,7 @@ class Json_Chain_File_Creator
             current_tiered_move = Tiered_Move.new 
             current_tiered_move.command = current_move_command
             current_tiered_move.child_move = []
+            current_tiered_move.full_move_details = move_set[0] 
             if(move_set[1].count > 0)
                 build_move_text(move_set[1],current_tiered_move.child_move)
             end
